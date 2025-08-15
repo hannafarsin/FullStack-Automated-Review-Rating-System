@@ -1,0 +1,67 @@
+# ======================
+# Python
+# ======================
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.sqlite3
+db.sqlite3
+
+# ======================
+# Django
+# ======================
+**/migrations/
+*.log
+media/
+staticfiles/
+static/
+
+# ======================
+# Environment Variables
+# ======================
+.env
+.env.local
+.env.*.local
+
+# ======================
+# Node.js / Vite / React (Frontend)
+# ======================
+node_modules/
+dist/
+build/
+*.map
+
+# ======================
+# AI Model Files
+# ======================
+# (Removed *.h5 and *.pkl so they can be committed)
+*.joblib
+*.pt
+*.pth
+*.onnx
+__MACOSX/
+
+# ======================
+# IDEs and Editors
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# OS Generated Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Archives / Backups
+# ======================
+*.zip
+*.tar
+*.gz
